@@ -227,12 +227,17 @@ span.visual p{
     background: hsla(256, 72%, 46%, 1);
 }
 .attribution {
-    color: blue;
+    color: green;
     display: flex;
     flex-direction: r;
     align-items: center;
     font-size: 12px;
     gap: 4px;
+    
+}
+.attribution a{
+    text-decoration: none;
+    color: blue;
 }
 
 
@@ -326,6 +331,13 @@ span.visual p{
         padding: 16px;
         display: flex;
         justify-content: center;
+}
+.attribution p{
+    color: blue;
+
+}
+.attribution a{
+    color: white;
 }
 }
 
