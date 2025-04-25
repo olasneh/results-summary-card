@@ -226,6 +226,14 @@ span.visual p{
     cursor: pointer;
     background: hsla(256, 72%, 46%, 1);
 }
+.attribution {
+    color: blue;
+    display: flex;
+    flex-direction: r;
+    align-items: center;
+    font-size: 12px;
+    gap: 4px;
+}
 
 
 @media (max-width: 1024px){
