@@ -266,8 +266,8 @@ span.visual p{
         font-size: 16px;
         font-weight: 600;
     }
-    .memory img{
-        width: 16px;
+    span.memory img{
+        width: 18px;
     }
     .summary-verbal{
         padding: 16px;
@@ -275,11 +275,20 @@ span.visual p{
     span.verbal p{
         font-size: 16px;
     }
+    span.verbal img{
+        width: 18px;
     
     }
     span.visual p{
         font-size: 16px;
     }
+    span.visual img{
+        width: 18px;
+    }
+    .summary-visual{
+        padding: 16px;
+    }
+
     .summary-verbal{
         padding: 16px;
     }
@@ -294,7 +303,7 @@ span.visual p{
         font-weight: 600;
     }
     .summary-score img{
-        width: 16px;
+        width: 18px;
     
     }
     .score{
@@ -309,5 +318,6 @@ span.visual p{
         padding: 16px;
         display: flex;
         justify-content: center;
+}
 }
 
